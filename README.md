@@ -14,12 +14,20 @@ Rules of the game (source: Codecademy.com)
     
 Main steps from script.py:
 -Create CSV template with header in working directory
+
 -Prompt user to enter number of disks (hardcode in script.py, don't go larger than 3 to start)
+
 -Prompt user to enter number of times to play game (hardcode)
--Play_game function invoked until loop ends and number of moves needed and time elapsed logged to CSV for each function iteration. Please read comments in script.py play_game function definition for more details
+
+-Play_game function invoked until loop ends and number of moves needed and time elapsed logged to CSV for each function iteration. Please read comments in script.py play_game 
+function definition for more details
+
 -CSV trailer record created and file closed.
+
 -Import csv file using Pandas library and create Dataframe object (ignoring header and trailer records)
+
 -Define linear regression using numpy library and insert into dataframe object
+
 -Create and open scatterplot with x as '# of moves', y as 'time elapsed' and linear regression
 
 I hope this exercices was valuable to all. Please comment if you have any feedback!
